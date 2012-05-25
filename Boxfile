@@ -3,4 +3,5 @@ web1:
  shared_writable_dirs:
   - lp/
  php_version: 5.3.10
- 
+ after_deploy:
+  - "cp index.php lp/index.php"
