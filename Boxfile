@@ -1,9 +1,7 @@
 web1:
  name: simple-app
  shared_writable_dirs:
-  - app/
- document_root:
-  - app/
+  - lp/
  php_version: 5.3.10
  after_deploy:
-  - "cp index.php app/index.php"
+  - "cp index.php lp/index.php"
