@@ -1,8 +1,6 @@
 web1:
  name: simple-app
  shared_writable_dirs:
-  - /lp/
- document_root:
-  - /
+  - lp/
  php_version: 5.3.10
  
