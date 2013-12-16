@@ -3,7 +3,7 @@ body {
 	background-image:url(http://www.publicdomainpictures.net/pictures/70000/nahled/background-with-snowflakes.jpg);
 }
 
-.intro img {
+img {
 	max-width: 400px;
 	max-height: 400px;
 }
